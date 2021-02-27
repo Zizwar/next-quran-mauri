@@ -1,0 +1,8 @@
+
+body{background:#eee0e0; /*direction:rtl*/; }
+#rm-wino{background-image: url(../images/sa1.png);width:1080px;height: 1920px;}
+
+.lineFahras{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+/*background:#cbdfdf8f*/;width:1080px;position:absolute;z-index:1/* top: 204px; */}
