@@ -99,7 +99,7 @@ $("wino").appendChild(elm);
 
 window.onload= ()=>{
 
-const pageUrl  = `https://mushaf.me/fahres/page/muhammadi/page${page}.png`;
+const pageUrl  = `https://mushaf.me/fahres/page/images/muhammadi/page${page}.png`;
  	$("imagino").setAttribute("src",pageUrl);
 //const idTest = $('test');
 //alert(idTest.innerHTML);

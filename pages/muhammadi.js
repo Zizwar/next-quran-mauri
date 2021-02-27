@@ -7,9 +7,8 @@ export default function Home() {
     const s =[];
     console.log(s?.a?.b)
     const allImagesQuranMohammadi = () =>
-    Array.from({ length: 20 }).map((_, i) => <img key={`img${i}`} width="100"  src={`/muhammadi/page${i}.png`}/>
-    )
-
+    Array.from({ length: 20 }).map((_, i) => <img key={`img${i}`} width="100"  src={`/muhammadi/page${i}.png`}/>);
+    
     return (
     <div className={styles.container}>
       <Head>
