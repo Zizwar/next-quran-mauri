@@ -1,6 +1,6 @@
 import React from 'react'
 import Tilt from 'react-parallax-tilt';
-import {Container,Row,Col} from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 const Banner = () => (
     <section className="app1 header" id="home">
         <div className="app1-header bg">
@@ -14,7 +14,7 @@ const Banner = () => (
                                 </div>
                                 <div className="header-sub-text">
                                     <p className="text-white p-light">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting
+                                    typesetting
                                         industry. Lorem Ipsum has been</p>
                                 </div>
                                 <div className="link-horizontal">
@@ -37,12 +37,17 @@ const Banner = () => (
                             </div>
                         </div>
                     </Col>
-                    <div className="rotate">
+                    <div className="rotate" style={{
+                        top: "1% !important",
+                        transform: "rotate(0deg) !important",
+                        position: "initial !important",
+                        zIndex: "0 !important"
+                    }} >
                         <Tilt perspective="20000" transitionSpeed="3000">
-                            <img alt="" className="img-fluid" src="/assets/images/app_landing1/preview_movie.png" />
+                            <img alt="" className="img-fluid" src="/assets/images/app_landing1/intro-mauri.jpg" />
                         </Tilt>
                     </div>
-                    <div className="squares">
+                    <div className="squares" style={{ transform: null, top: 0 }}>
                         <img alt="" className="img-fluid img-1 set-abs" src="/assets/images/app_landing1/Ellipse.png" />
                         <img alt="" className="img-fluid img-2 set-abs" src="/assets/images/app_landing1/Ellipse.png" />
                     </div>

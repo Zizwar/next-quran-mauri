@@ -64,7 +64,7 @@ function MyFunctionComponent({ children }) {
   return (
     <>
       <Head>
-        <title>Unice</title>
+        <title>Mushaf Mauri</title>
       </Head>
       {loader &&
         <div className="loader-wrapper">
