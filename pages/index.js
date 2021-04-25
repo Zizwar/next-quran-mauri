@@ -15,6 +15,7 @@ import FooterSection from './layouts/sections/index/footer'
 const App1 = () => {
 
   useEffect(() => {
+      document.body.classList.add('rtl');
     document.body.style.setProperty('--primary', '#357fef')
     document.body.style.setProperty('--secondary', '#4e4e4e')
     document.body.style.setProperty('--light', '#13B8EA')
