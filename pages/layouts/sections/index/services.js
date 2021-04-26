@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { features } from '../../../../database/layouts/app/ar';
-const { title, text, feature } = feature
+const { title, text, feature } = features;
 const Services = () => (
     <section className="services" id="service">
         <Container>
