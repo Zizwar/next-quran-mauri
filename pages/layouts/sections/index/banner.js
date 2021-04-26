@@ -38,7 +38,7 @@ const Banner = () => (
                         transform: "rotate(0deg) !important",
                         position: "initial !important",
                         zIndex: "0 !important",
-                        display: "block !important"
+                       // display: "block !important"
                     }} >
                         <Tilt perspective="20000" transitionSpeed="3000">
                             <img alt="" className="img-fluid" src="/assets/images/app_landing1/intro-mauri.jpg" />
