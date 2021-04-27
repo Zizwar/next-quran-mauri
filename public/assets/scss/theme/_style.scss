@@ -66,6 +66,13 @@
 /**************************
  1. general css start
 *************************/
+ @font-face {
+  font-family: "Pnu";
+  src: url("/public/assets/fonts/pnu.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .center-header {
   z-index: 1;
 }
@@ -85,7 +92,7 @@ body {
 }
 h1,
 h2 {
-  font-family: "Capriola", sans-serif;
+  font-family: "Pnu", sans-serif;
   text-transform: capitalize;
 }
 h4,

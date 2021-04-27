@@ -19,7 +19,7 @@ const Services = () => (
                 {feature.map(({ title, text, icon }, index) => <Col md="4" key={`ftr${index}`}>
                     <div className="service service-overlay">
                         <div className="img-block">
-                            <img alt="" className="service-img img-fluid" src="/assets/images/app_landing1/icons/1-1.png" />
+                            <img alt="" className="service-img img-fluid" src={`/assets/icons/${icon}.png`} />
                         </div>
                         <div className="service-feature">
                             <h4 className="feature-text">{title}</h4>
