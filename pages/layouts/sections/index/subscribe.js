@@ -7,13 +7,10 @@ const Subscribs = () => (
                 <Col lg="6" className="offset-lg-3">
                     <div className="title title1">
                         <div className="main-title">
-                            <h2>Subscribe to our newsletter</h2>
+                            <h2>اشترك في نشرتنا الإخبارية</h2>
                         </div>
                         <div className="sub-title">
-                            <p className="para">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                been
-                        </p>
+                      
                         </div>
                     </div>
                 </Col>
@@ -25,10 +22,10 @@ const Subscribs = () => (
                             <div className="form-group">
                                 <div className="d-flex">
                                     <input className="form-control " maxLength="45" name="email"
-                                        placeholder="Please Enter Your Email Address" type="email" />
+                                        placeholder="الرجاء إدخال عنوان البريد الإلكتروني الخاص بك" type="email" />
                                     <div className="button-primary">
                                         <button className=" btn btn-default btn-gradient text-white text-uppercase"
-                                            type="submit">subscribe
+                                            type="submit">اشتراك
                                     </button>
                                     </div>
                                 </div>
@@ -43,12 +40,12 @@ const Subscribs = () => (
                         <ul className="socials-horizontal justify-content-center">
                             <li>
                                 <a href="#">
-                                    <i aria-hidden="true" className="fa fa-facebook center-content"></i>
+                                    <i aria-hidden="true" className="fa fa-android center-content"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i aria-hidden="true" className="fa fa-twitter center-content"></i>
+                                    <i aria-hidden="true" className="fa fa-github center-content"></i>
                                 </a>
                             </li>
                             <li>
@@ -58,7 +55,7 @@ const Subscribs = () => (
                             </li>
                             <li>
                                 <a href="#">
-                                    <i aria-hidden="true" className="fa fa-instagram center-content"></i>
+                                    <i aria-hidden="true" className="fa fa-facebook center-content"></i>
                                 </a>
                             </li>
                         </ul>

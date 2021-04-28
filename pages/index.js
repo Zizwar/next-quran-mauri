@@ -14,39 +14,39 @@ import FooterSection from './layouts/sections/index/footer'
 
 const App1 = () => {
 
-  useEffect(() => {
-      document.body.classList.add('rtl');
-    document.body.style.setProperty('--primary', '#357fef')
-    document.body.style.setProperty('--secondary', '#4e4e4e')
-    document.body.style.setProperty('--light', '#13B8EA')
-    document.body.style.setProperty('--dark', '#4E56F3')
-  })
+    useEffect(() => {
+        document.body.classList.add('rtl');
+        document.body.style.setProperty('--primary', '#357fef')
+        document.body.style.setProperty('--secondary', '#4e4e4e')
+        document.body.style.setProperty('--light', '#13B8EA')
+        document.body.style.setProperty('--dark', '#4E56F3')
+    })
 
-  return (
-    <div>
-      <Head>
-        <title>Mushaf Mauri</title>
-      </Head>
+    return (
+        <div>
+            <Head>
+                <title>Mushaf Mauri</title>
+            </Head>
 
 
-      <BannerSection />
+            <BannerSection />
 
-      <ServicesSection />
+            <ServicesSection />
 
-      <AboutSection />
+            <AboutSection />
 
-      <DownloadSection />
+            <DownloadSection />
 
-      <ScreenShotsSection />
+            <ScreenShotsSection />
 
-      <PriceSection />
 
+            {/*
       <VideoSection />
+*/}
+            <FooterSection />
 
-      <FooterSection />
-
-    </div>
-  )
+        </div>
+    )
 }
 
 export default App1

@@ -1928,9 +1928,7 @@ download section end
         background: linear-gradient($light, $dark);
         border-radius: 10px;
         box-shadow: 0 5px 20px $shadow-light;
-        img {
-          filter: brightness(0) invert(1);
-        }
+       
         .service-feature {
           .feature-text,
           p {

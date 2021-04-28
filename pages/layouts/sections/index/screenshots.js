@@ -52,12 +52,10 @@ const ScreenShots = () => {
                     <Col lg="6" md="8" className="offset-lg-3 offset-md-2 m-b-10">
                         <div className="title title1">
                             <div className="main-title">
-                                <h2 className="text-white">Screen Shot</h2>
+                                <h2 className="text-white">لقطات الشاشة</h2>
                             </div>
                             <div className="sub-title">
-                                <p className="text-white para">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                    Lorem Ipsum has been</p>
+                            
                             </div>
                         </div>
                     </Col>

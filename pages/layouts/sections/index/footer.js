@@ -10,7 +10,7 @@ const Footer = () => (
                     <Col xs="12">
                         <div className="center-content">
                             <div>
-                                <h6 className="copyright-text text-white">Copyright © 2020, Development by Pixelstrap</h6>
+                                <h6 className="copyright-text text-white">Copyright © 2021</h6>
                             </div>
                         </div>
                     </Col>

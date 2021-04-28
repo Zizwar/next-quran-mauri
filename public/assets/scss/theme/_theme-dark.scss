@@ -819,9 +819,7 @@ body {
       .service {
         border-color: $border-color;
         box-shadow: 0 0 10px 5px $border-color;
-        .img-block {
-          filter: brightness(0) invert(1);
-        }
+       
         &.service-overlay {
           &:hover {
             box-shadow: 0 5px 20px $border-color;
