@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Slider from "react-slick";
-import { PricingResume1 } from '../../../../database/elements/price/database'
+import { PricingResume2 } from '../../../database/elements/price/database';
 import {Col} from 'reactstrap'
 var settings = {
     dots: false,
@@ -26,9 +26,9 @@ var settings = {
 const PricingThree = () => (
     <Fragment>
         <Col xs="12">
-            <Slider className="pricing-slider  price-margin" {...settings}>
+            <Slider className="pricing-slider" {...settings}>
                 {
-                    PricingResume1.map((item, i) => {
+                    PricingResume2.map((item, i) => {
                         return (
                             <div className="item" key={i}>
                                 <div className="price-container price-margin shadows bg-white text-center">
@@ -46,7 +46,7 @@ const PricingThree = () => (
                                         <div className="price-value">
                                             <h6 className="price text-center font-primary">$<span className="large font-primary">{item.price}</span>/month</h6>
                                         </div>
-                                        <a className="btn btn-default btn-white" href="#">purchase</a>
+                                        <a className="btn btn-default back-white" href="#">purchase</a>
                                     </div>
                                 </div>
                             </div>

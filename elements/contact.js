@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../containers/common/common-layout'
+import Layout from '../containers/common/common-layout'
 import Contact1Section from './contact/contact1';
 import Contact2Section from './contact/contact2';
 

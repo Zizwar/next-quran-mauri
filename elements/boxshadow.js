@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../../containers/common/common-layout'
-import { BoxshadowData } from '../../database/elements/database';
+import Layout from '../containers/common/common-layout'
+import { BoxshadowData } from '../database/elements/database';
 import { Container, Row, Col } from 'reactstrap'
 const Boxshadow = () => (
     <Layout pathList={['elements', 'box shadow']} pathTitle="elements with box shadow">

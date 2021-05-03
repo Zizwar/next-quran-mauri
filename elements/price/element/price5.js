@@ -1,7 +1,7 @@
 import React, {  Fragment } from 'react';
 import Slider from "react-slick";
 import {Container,Row,Col} from 'reactstrap'
-import { PricingResume2 } from '../../../../database/elements/price/database'
+import { PricingResume2 } from '../../../database/elements/price/database';
 var settings = {
     dots: true,
     infinite: true,

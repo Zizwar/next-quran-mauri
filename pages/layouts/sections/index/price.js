@@ -1,5 +1,5 @@
 import React from 'react'
-import PriceOne from '../../../elements/price/element/price1';
+import PriceOne from '../../../../elements/price/element/price1';
 import {Container,Row,Col} from 'reactstrap'
 
 const Price = () => (

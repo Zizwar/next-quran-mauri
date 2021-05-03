@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Head, Main, NextScript, Html } from 'next/document'
 
 const BaseCSS = ({ css }) =>
     <style
@@ -14,10 +14,9 @@ BaseCSS.defaultProps = {
 export default class MyDocument extends Document {
     render() {
         return (
-            <html>
+            <Html>
                 <Head>
                     <link rel="icon" href="/favicon.ico" />
-                    <meta name='viewport' content='width=device-width, initial-scale=1' />
                     <meta name='generator' content='mdx-docs' />
                     <link href="https://fonts.googleapis.com/css?family=Capriola&amp;subset=latin-ext" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
@@ -31,7 +30,7 @@ export default class MyDocument extends Document {
                     <Main />
                     <NextScript />
                 </body>
-            </html>
+            </Html>
         )
     }
 }   

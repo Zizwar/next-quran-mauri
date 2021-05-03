@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Slider from "react-slick";
-import { PricingData } from '../../../../database/elements/price/database';
+import { PricingData } from '../../../database/elements/price/database';
 import {Row,Col} from 'reactstrap'
 var settings = {
     dots: false,
