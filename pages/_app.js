@@ -69,16 +69,13 @@ function MyFunctionComponent({ children }) {
       </Head>
       {loader &&
         <div className="loader-wrapper">
-          <div className="loader">
+           <img alt="" className="img-fluid img-1 set-abs" src="icon.png" />
+          <div className="loader" style={{opacity:0.3}}>
             <div></div>
             <div></div>
             <div></div>
             <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        
           </div>
         </div>}
       <>{children}</>

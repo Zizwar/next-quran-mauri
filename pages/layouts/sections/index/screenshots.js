@@ -55,7 +55,7 @@ const ScreenShots = () => {
                                 <h2 className="text-white">لقطات الشاشة</h2>
                             </div>
                             <div className="sub-title">
-                            
+
                             </div>
                         </div>
                     </Col>
@@ -65,36 +65,12 @@ const ScreenShots = () => {
                         <div className="swiper-container">
                             <div className="swiper-wrapper">
                                 <Slider className="screenshot-slider"  {...settings}>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/1.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/2.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/3.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/4.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/4.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/1.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/2.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/3.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/4.png" />
-                                    </div>
-                                    <div className="item">
-                                        <img alt="" className="img-fluid" src="/assets/images/app_landing1/screen-shot/4.png" />
-                                    </div>
+                                    {Array.apply(null, { length: 10 }).map((_,index) =>
+                                        <div className="item">
+                                            <img alt="" className="img-fluid" src={`/wino/screenshot/mushaf_mauris_screenshot(${index+5}).jpg`} />
+                                        </div>)
+                                    }
+
                                 </Slider>
                             </div>
                         </div>

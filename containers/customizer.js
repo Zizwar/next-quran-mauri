@@ -23,16 +23,16 @@ const Customizer = () => {
         setThemeLayout(!themeLayout)
     }
 
-    if(themeLayout){ 
+    if (themeLayout) {
         if (process.browser) {
-        document.body.classList.add('dark');
+            document.body.classList.add('dark');
         }
-    }else{
+    } else {
         if (process.browser) {
-        document.body.classList.remove('dark');
+            document.body.classList.remove('dark');
         }
     }
-
+    return (<div></div>)
     return (
         <div className="theme-pannel-main">
             <ul>
@@ -43,7 +43,7 @@ const Customizer = () => {
                 </li>
                 <li className="sidebar-btn dark-light-btn">
                     <a href={null} className="dark-light" onClick={() => changeThemeLayout()}>
-                        <span className="theme-layout-version">{themeLayout?'Light':'Dark'}</span>
+                        <span className="theme-layout-version">{themeLayout ? 'Light' : 'Dark'}</span>
                     </a>
                 </li>
             </ul>
