@@ -1,2 +1,2 @@
 # mushaf.ma
-http://mushaf.ma
+http://www.mushaf.ma
