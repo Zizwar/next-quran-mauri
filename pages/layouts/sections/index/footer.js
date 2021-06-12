@@ -8,9 +8,9 @@ const Footer = () => (
             <Container>
                 <Row>
                     <Col xs="12">
-                        <div className="center-content">
+                        <div className="center-content"> <p className="copyright-text text-white">mail@ibrahim.contact</p>
                             <div>
-                                 <h6 className="copyright-text text-white">mail@ibrahim.contact</h6>
+                                
                                 <h6 className="copyright-text text-white">Copyright © 2021</h6>
                             </div>
                         </div>
