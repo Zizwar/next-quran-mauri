@@ -13,7 +13,7 @@ const Footer = () => (
                                 
                                 <h6 className="copyright-text text-white">Copyright © 2021</h6>
                             </div>
-                        </div>
+                       
                     </Col>
                 </Row>
             </Container>
