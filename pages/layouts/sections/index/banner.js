@@ -22,7 +22,7 @@ const Banner = () => (
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className="icon-btn" href="https://play.google.com/store/apps/details?id=wino.ma.mushaf.mauri">
+                                            <a className="icon-btn" href="https://apkpure.com/%D9%85%D8%B5%D8%AD%D9%81-%D9%85%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85/wino.ma.mushaf.mauri">
                                                 <i aria-hidden="true" className="fa fa-android center-content"></i>
                                                 <h6 className="text-center text-white">android</h6>
                                             </a>
