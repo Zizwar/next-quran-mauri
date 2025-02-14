@@ -15,46 +15,28 @@ const Subscribs = () => (
                     </div>
                 </Col>
             </Row>
-            <Row>
-                <Col lg="8"  className="offset-lg-2">
-                    <div className="subscribe">
-                        <div className="center-content">
-                            <div className="form-group">
-                                <div className="d-flex">
-                                    <input className="form-control " maxLength="45" name="email"
-                                        placeholder="الرجاء إدخال عنوان البريد الإلكتروني الخاص بك" type="email" />
-                                    <div className="button-primary">
-                                        <button className=" btn btn-default btn-gradient text-white text-uppercase"
-                                            type="submit">اشتراك
-                                    </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
+          
             <Row>
                 <Col md="12">
                     <div className="socials-lists m-t-50">
                         <ul className="socials-horizontal justify-content-center">
                             <li>
-                                <a href="#">
+                                <a href="https://apkpure.com/%D9%85%D8%B5%D8%AD%D9%81-%D9%85%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85/wino.ma.mushaf.mauri">
                                     <i aria-hidden="true" className="fa fa-android center-content"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://github.com/zizwar">
                                     <i aria-hidden="true" className="fa fa-github center-content"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="ibrahimbidi@yahoo.com">
                                     <i aria-hidden="true" className="fa fa-google center-content"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://facebook.com/Zizwar">
                                     <i aria-hidden="true" className="fa fa-facebook center-content"></i>
                                 </a>
                             </li>
